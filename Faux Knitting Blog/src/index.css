@@ -1,0 +1,57 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #CBC0AF;
+    overflow: scroll;
+}
+
+img {
+    flex: 50%;
+    width: 60%;
+    height: 70%;
+    border-radius: 70% / 60% 60% 60% 60%;
+    padding: 100px;
+    align-items: center;
+}
+
+h1 {
+    font-family: "Kaushan Script";
+}
+
+h3 {
+    font-family: "Satisfy";
+}
+
+h4 {
+    font-family: "Satisfy";
+}
+
+p {
+    max-width: 60%;
+    font-family: "roboto";
+}
+
+button {
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color:darkolivegreen;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.satisfy-regular {
+    font-family: "Satisfy", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.kaushan-script-regular {
+  font-family: "Kaushan Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
